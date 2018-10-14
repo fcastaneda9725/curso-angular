@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <ul class="list-group">
+        <li *ngIf="real2" class="list-group-item">Cras justo odio REAL2</li>
+        <li *ngIf="real1" class="list-group-item">Dapibus ac facilisis in REAL1</li>
+        <li *ngIf="real2" class="list-group-item">Morbi leo risus REAL2</li>
+        <li *ngIf="real1" class="list-group-item">Porta ac consectetur ac REAL1</li>
+        <li *ngIf="real2" class="list-group-item">Vestibulum at eros REAL2</li>
+      </ul>
+      <button *ngIf="real2" (click)="cambiarReal(1)" type="button" class="btn btn-primary">Mostrar real1</button>
+      <button *ngIf="real1" (click)="cambiarReal(2)" type="button" class="btn btn-secondary">Mostrar real2</button>
+    </div>
+  </div>
+</div>
