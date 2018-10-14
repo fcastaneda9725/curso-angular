@@ -18,19 +18,19 @@ export class Ejemplo3Component implements OnInit {
     this.real2 = false;
   }
 
- // public function cambiarReal(caso){
- //   switch (caso){
- //       case 1:
- //         this.real1 = true;
- //         this.real2 = false;
- //         break
- //
- //       case 2:
- //         this.real1 = false;
- //         this.real2 = true;
- //         break
- //   }
- //
- // };
+ public function cambiarReal(caso){
+   switch (caso){
+       case 1:
+         this.real1 = true;
+         this.real2 = false;
+         break
+
+       case 2:
+         this.real1 = false;
+         this.real2 = true;
+         break
+   }
+
+ };
 
 }
