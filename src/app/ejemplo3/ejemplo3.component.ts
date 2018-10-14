@@ -9,6 +9,7 @@ export class Ejemplo3Component implements OnInit {
 
   real1: boolean;
   real2: boolean;
+  real3 : boolean;
   constructor() {
 
   }
@@ -16,6 +17,7 @@ export class Ejemplo3Component implements OnInit {
   ngOnInit() {
     this.real1 = true;
     this.real2 = false;
+    this.real3 = true;
   }
 
  // public function cambiarReal(caso){
@@ -32,5 +34,6 @@ export class Ejemplo3Component implements OnInit {
  //   }
  //
  // };
+
 
 }
